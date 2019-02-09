@@ -4,7 +4,7 @@ class ArtistsController < ApplicationController
   end	  end
 
 
-   def show	  def show
+   def show
     @artist = Artist.find(params[:id])
 	 end
 
